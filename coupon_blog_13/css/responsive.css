@@ -1,0 +1,155 @@
+@media (max-width: 1237px) {}
+
+@media (max-width: 1141px) {}
+
+
+@media (max-width: 1172px) {
+    .menu {
+        display: block;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav_main {
+        position: absolute;
+        top: 0;
+        right: -300px;
+        z-index: 15;
+        transition: .3s;
+    }
+
+    .nav_main ul {
+        flex-direction: column;
+        background: var(--primary-700);
+        height: 100vh;
+        width: 300px;
+        padding-top: 75px;
+    }
+
+    li.links {
+        max-width: 90%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    li.links a {
+        text-align: center;
+        width: 100%;
+    }
+
+    nav.nav_main.active {
+        right: 0;
+    }
+
+    body.active {
+        overflow: hidden;
+    }
+
+    body.active:after {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1124px) {
+    .blog_main {
+        flex-direction: column;
+    }
+
+    .blog_mini_card_wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(308px, 1fr));
+        width: 100%;
+        gap: 30px;
+        flex: 0;
+    }
+
+    .blog_mini_card_wrapper .blog_card {
+        flex: 1 1 370px;
+        width: 100%;
+    }
+
+    .blog_mini_card_wrapper .blog_card .blogs_card_content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 992px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+        align-items: flex-start;
+        position: unset;
+    }
+}
+
+@media (max-width: 792px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 640px) {}
+
+@media (max-width: 666px) {
+    .header_wrpper {
+        flex-wrap: wrap;
+        gap: 11px;
+    }
+
+    .header_form {
+        flex: 0 0 100%;
+    }
+
+    nav.nav_main {
+        flex: 1;
+    }
+
+    .logo_main {
+        flex: 0 0 200px;
+    }
+
+    .menu {
+        display: flex;
+        margin-left: auto;
+    }
+
+    .header_search_form {
+        flex: 0 0 100%;
+        order: 3;
+    }
+
+    .logo_main {
+        flex: 0 0 160px;
+    }
+
+    .logo.footer-logo {
+        width: 160px;
+    }
+}
+
+@media (max-width: 616px) {
+    .blog_card_wrapper {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 535px) {}
+
+@media (max-width: 597px) {}
+
+@media (max-width: 571px) {}
+
+@media (max-width: 510px) {}
+
+@media (max-width: 470px) {}
+
+@media (max-width: 466px) {}

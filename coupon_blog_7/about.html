@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <title>Blogs-5th</title>
+      <link rel="stylesheet" href="./css/bootstrap.css">
+      <link rel="stylesheet" href="./css/swiper.css">
+      <link rel="stylesheet" href="./icons/tabler-icons.css">
+      <link rel="stylesheet" href="./css/container.css">
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="shortcut icon" sizes="26x26" href="./images/logo/favicon.svg" type="image/x-icon">
+      <link rel="stylesheet" href="./css/responsive.css">
+   </head>
+   <body>
+      <!-- ========== Header  ========== -->
+      <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="header_wrapper">
+              <div class="navbar_links">
+                <ul class="nav_links">
+                  <li class="active" >
+                    <a href="index.html" class="link active">Home</a>
+                  </li>
+                  <li>
+                    <a href="about.html" class="link">About</a>
+                  </li>
+                  <li >
+                    <a href="store.html" class="link">Store</a>
+                  </li>             
+                  <li>
+                    <a href="contact.html" class="link">contact</a>
+                  </li>
+                  <li class="cate_link" >
+                    <a href="categories.html" class="link">Categories</a>
+                  </li>
+                  <span class="trigger"></span>
+                </ul>
+              </div>
+              <div class="header_logo">
+                <a href="" class="logo">
+                  <img src="images/logo/logo.svg" alt="">
+                </a>
+              </div>
+              <div class="header_category">
+                <button class="menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu" aria-expanded="false">
+                  <svg width="30" height="30" viewBox="0 0 100 100">
+                    <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"></path>
+                    <path class="line line2" d="M 20,50 H 80"></path>
+                    <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"></path>
+                  </svg>
+                </button>
+                <a  href="categories.html" class="category_link">
+                    <i class="ti ti-category"></i>  All Category
+                </a>
+              </div>
+            </div>
+            <div class="header_search">
+              <form action="" class="header_form">
+                <div class="header_search_icon">
+                  <i class="ti ti-search"></i>
+                </div>
+                <input type="text" id="searchInput" placeholder="What Are You looking For...">
+                <button class="search_btn">
+                Search
+                </button>
+              </form>
+              <div class="search_blogs">
+                <h2 class="search-heading">
+                  Stores From <span id="searchText"></span>
+              </h2>
+                <div class="post_sidebar">
+                  <div id="noResults" style="display: none;">No Results Found</div>
+                  <div class="sidebar_card " >
+                    <div class="sidebar_card_img">
+                      <figure>
+                        <img src="images/blog/blog_07.jpg" alt="">
+                      </figure>
+                    </div>
+                    <div class="sidebar_card_content">
+                      <a href="single_single_category.html">
+                        <h4 class="webkit">"Unveiling the Mysteries: A Journey into the Unknown</h4>
+                      </a>
+                      <div class="tags">
+                        <div class="card_tag">
+                          <i class="ti ti-tag"></i>Fashion
+                        </div>
+                        <div class="card_tag">
+                          <i class="ti ti-clock"></i>24july
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sidebar_card">
+                    <div class="sidebar_card_img">
+                      <figure>
+                        <img src="images/blog/blog_06.jpg" alt="">
+                      </figure>
+                    </div>
+                    <div class="sidebar_card_content">
+                      <a href="single_single_category.html">
+                        <h4 class="webkit">Revolutionizing the Future: Unleashing the Power of Innovation </h4>
+                      </a>
+                      <div class="tags">
+                        <div class="card_tag">
+                          <i class="ti ti-tag"></i>Fashion
+                        </div>
+                        <div class="card_tag">
+                          <i class="ti ti-clock"></i>24july
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sidebar_card" style="">
+                    <div class="sidebar_card_img">
+                      <figure>
+                        <img src="images/blog/blog_09.jpg" alt="">
+                      </figure>
+                    </div>
+                    <div class="sidebar_card_content">
+                      <a href="single_single_category.html">
+                        <h4 class="webkit">Exploring Nature's Wonders: A Wilderness Adventure</h4>
+                      </a>
+                      <div class="tags">
+                        <div class="card_tag">
+                          <i class="ti ti-tag"></i>Fashion
+                        </div>
+                        <div class="card_tag">
+                          <i class="ti ti-clock"></i>24july
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sidebar_card">
+                    <div class="sidebar_card_img">
+                      <figure>
+                        <img src="images/blog/blog_08.jpg" alt="">
+                      </figure>
+                    </div>
+                    <div class="sidebar_card_content">
+                      <a href="single_single_category.html">
+                        <h4 class="webkit">Mastering the Art of Productivity: Proven Strategies for Success </h4>
+                      </a>
+                      <div class="tags">
+                        <div class="card_tag">
+                          <i class="ti ti-tag"></i>Fashion
+                        </div>
+                        <div class="card_tag">
+                          <i class="ti ti-clock"></i>24july
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+      <!-- ========== Header end  ========== -->
+      <!-- ========== About section  ========== -->
+      <section class="about_us">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="about_us_main">
+                     <div class="main_heading">
+                        <h4>
+                           About Us
+                        </h4>
+                     </div>
+                     <div class="about_para">
+                        <h4>
+                           Welcome to Find free Vouchars
+                        </h4>
+                        <p>
+                           Enter your keyword, location, and device type. Get tips on how to improve SEO of your new article based on the top 10 search results. The About Us page of your website is an essential source of information for all who want to know more about your business. About Us pages are where you showcase your history, what is unique about your work, your company’s values, and who you serve. The design, written content, and visual or video elements together tell an important story about who you are and why you do it. How can you make the most of this integral part of your marketing strategy?
+                        </p>
+                     </div>
+                     <div class="about_para">
+                        <h4>
+                           Welcome to Find free Vouchars
+                        </h4>
+                        <p>
+                           Enter your keyword, location, and device type. Get tips on how to improve SEO of your new article based on the top 10 search results. The About Us page of your website is an essential source of information for all who want to know more about your business. About Us pages are where you showcase your history, what is unique about your work, your company’s values, and who you serve. The design, written content, and visual or video elements together tell an important story about who you are and why you do it. How can you make the most of this integral part of your marketing strategy?
+                        </p>
+                     </div>
+                     <div class="about_para">
+                        <h4>
+                           Welcome to Find free Vouchars
+                        </h4>
+                        <p>
+                           Enter your keyword, location, and device type. Get tips on how to improve SEO of your new article based on the top 10 search results. The About Us page of your website is an essential source of information for all who want to know more about your business. About Us pages are where you showcase your history, what is unique about your work, your company’s values, and who you serve. The design, written content, and visual or video elements together tell an important story about who you are and why you do it. How can you make the most of this integral part of your marketing strategy?
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- ========== footer ========== -->  
+      <footer class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="footer_wrapper">
+                     <div class="footer_content  footer_logo">
+                        <a href="index.html" class="logo">
+                           <figure><img src="./images/logo/logo.svg" alt=""></figure>
+                        </a>
+                        <div class="footer_detail">
+                           <p>
+                              It includes rich features &amp; contents. It's designed &amp; developed based on One Page/
+                              Multi-page
+                              Layout,blog themes,world press themes and blogspot. You can use any layout from any demo
+                              anywhere.
+                           </p>
+                        </div>
+                        <div class="subscribe_field">
+                           <strong>
+                           Subscribe Our News Field
+                           </strong>
+                           <form action="" class="form">
+                              <input type="text" id="searchInput" placeholder="Search......">
+                              <button class="search_btn">
+                              <i class="ti ti-send"></i>
+                              </button>
+                           </form>
+                           <div class="social_media footer_media ">
+                              <a href="#" class="social_icon facebook ">
+                              <i class="ti ti-brand-facebook"></i>
+                              </a>
+                              <a href="#" class="social_icon instagram">
+                              <i class="ti ti-brand-instagram"></i>
+                              </a>
+                              <a href="#" class="social_icon linkedin">
+                              <i class="ti ti-brand-linkedin"></i>
+                              </a>
+                              <a href="#" class="social_icon twitter">
+                              <i class="ti ti-brand-twitter"></i>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="footer_content">
+                        <h4 class="footer_title">Categories</h4>
+                        <div class="footer_category">
+                           <a href="#">Multipurpose</a>
+                           <a href="#">Blog</a>
+                           <a href="#">Blog</a>
+                           <a href="#">Creative</a>
+                           <a href="#">One Page</a>
+                           <a href="#">Classy</a>
+                           <a href="#">minimal</a>
+                        </div>
+                     </div>
+                     <div class="footer_content">
+                        <h4 class="footer_title">Populor Blogs</h4>
+                        <div class="post_sidebar">
+                           <div class="sidebar_card">
+                              <div class="sidebar_card_img">
+                                 <figure>
+                                    <img src="images/blog/blog_07.jpg" alt="">
+                                 </figure>
+                              </div>
+                              <div class="sidebar_card_content">
+                                 <a href="single_single_category.html">
+                                    <h4 class="webkit">Timberland Men's Thorton
+                                       Waterproof Boots
+                                    </h4>
+                                 </a>
+                                 <div class="tags">
+                                    <div class="card_tag"><i class="ti ti-tag"></i>Fashion</div>
+                                    <div class="card_tag"><i class="ti ti-clock"></i>24july</div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="sidebar_card">
+                              <div class="sidebar_card_img">
+                                 <figure>
+                                    <img src="images/blog/blog_06.jpg" alt="">
+                                 </figure>
+                              </div>
+                              <div class="sidebar_card_content">
+                                 <a href="single_single_category.html">
+                                    <h4 class="webkit">Timberland Men's Thorton
+                                       Waterproof Boots
+                                    </h4>
+                                 </a>
+                                 <div class="tags">
+                                    <div class="card_tag"><i class="ti ti-tag"></i>Fashion</div>
+                                    <div class="card_tag"><i class="ti ti-clock"></i>24july</div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="sidebar_card">
+                              <div class="sidebar_card_img">
+                                 <figure>
+                                    <img src="images/blog/blog_09.jpg" alt="">
+                                 </figure>
+                              </div>
+                              <div class="sidebar_card_content">
+                                 <a href="single_single_category.html">
+                                    <h4 class="webkit">Timberland Men's Thorton
+                                       Waterproof Boots
+                                    </h4>
+                                 </a>
+                                 <div class="tags">
+                                    <div class="card_tag"><i class="ti ti-tag"></i>Fashion</div>
+                                    <div class="card_tag"><i class="ti ti-clock"></i>24july</div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="sidebar_card">
+                              <div class="sidebar_card_img">
+                                 <figure>
+                                    <img src="images/blog/blog_08.jpg" alt="">
+                                 </figure>
+                              </div>
+                              <div class="sidebar_card_content">
+                                 <a href="single_single_category.html">
+                                    <h4 class="webkit">Timberland Men's Thorton
+                                       Waterproof Boots
+                                    </h4>
+                                 </a>
+                                 <div class="tags">
+                                    <div class="card_tag"><i class="ti ti-tag"></i>Fashion</div>
+                                    <div class="card_tag"><i class="ti ti-clock"></i>24july</div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="footer_content">
+                        <h4 class="footer_title">Use Full Links</h4>
+                        <div class="footer_links">
+                           <ul>
+                              <li><a href="index.html">Home</a></li>
+                              <li><a href="categories.html">Categories</a></li>
+                              <li><a href="store.html">Store </a></li>
+                              <li><a href="about.html">About </a> </li>
+                              <li><a href="contact.html">Contact </a></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         </div>
+         </div>
+         <div class="footer_bottom_main">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="footer_bott0m">
+                        Copyright 2022 © All Rights Reserved. - Created &amp; Managed By : <a
+                           href="https://techonza.netlify.app/">Techonza ©</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </body>
+   <script src="./js/bootstrap.bundle.min.js"> </script>
+   <script src="./js/jquery-3.6.3.js"></script>
+   <script src="./js/swiper.js"></script>
+   <script src="./js/script.js"></script>
+</html>

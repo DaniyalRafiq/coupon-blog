@@ -1,0 +1,262 @@
+@media (max-width: 1164px) {
+   .footer_logo {
+      background: transparent;
+   }
+
+   .disclimer_wrapper figure {
+      display: none;
+   }
+}
+
+@media (max-width: 1237px) {}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 992px) {
+   .contact_wrape figure {
+      display: none;
+   }
+
+   .contact_field_main {
+      flex-direction: column;
+   }
+
+   .main {
+      flex-direction: column;
+   }
+
+   .sidebar {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(242px, 1fr));
+      align-items: flex-start;
+      position: unset;
+      width: 100%;
+   }
+
+   .home_sidebar {
+      display: none;
+   }
+
+   .latest_card_main {
+      max-width: 100%;
+   }
+
+   .hero_content_main {
+      transform: translateY(-90%);
+   }
+}
+
+@media (max-width: 792px) {
+   .footer_logo {
+      grid-row: span 1;
+      justify-content: flex-start;
+      background-color: transparent;
+   }
+
+   .subscribe_container::before {
+      content: none;
+   }
+
+   .subscribe_container {
+      padding: 20px;
+   }
+
+}
+
+@media (max-width: 768px) {
+
+   .logo_main {
+      margin: 0;
+      height: 85px;
+      padding: 5px 0;
+      background: inherit;
+      justify-content: flex-start;
+      flex: 0 0 77px;
+      transition: .3s;
+   }
+
+   .header_navbar {
+      margin: 0;
+      padding: 13px 0;
+      width: 100%;
+      flex: 1;
+      /* padding-left: 12px; */
+      /* padding-right: 5px; */
+   }
+
+   .header_bottom {
+      background: var(--primary-600);
+   }
+
+
+   .header_form_main {
+      padding: 0;
+   }
+
+   .header_navbar ul li .link {
+      padding: 5px;
+      color: var(--white);
+   }
+}
+
+@media (max-width: px) {}
+@media (max-width: 753px) {
+   .featur_slider_main {
+      width: 100%;
+      max-width: 100%;
+   }
+   
+
+   
+}
+
+@media (max-width: 640px) {
+   .header_navbar ul {
+      gap: 16px;
+   }
+}
+
+@media (max-width: 616px) {
+   .single_store_main_content {
+      flex-direction: column;
+      gap: 10px;
+      padding: 11px;
+   }
+
+   .single_store_img_main {
+      padding: 10px;
+      border-radius: 5px;
+      height: 100px;
+      flex: 0 0 120px;
+      width: 130px;
+   }
+
+   .single_store_content {
+      padding: 0;
+   }
+
+   .single_store_content h4,
+   .single_store_content p {
+      -webkit-line-clamp: 2;
+      text-align: center;
+   }
+
+   .single_store_upper_card {
+      flex-direction: column;
+      box-shadow: 0 0 15px #0001;
+   }
+
+   .single_store_upper_content {
+      align-items: center;
+   }
+
+   .single_store_upper_content h4,
+   .single_store_upper_content p {
+      text-align: center;
+   }
+
+   .rating_star_main {
+      flex-direction: column;
+      gap: 6px;
+   }
+   .next_prev_post_main{
+      flex-direction: column;
+      gap: 10px;
+   }.next_prev_post {
+      flex: 0 0 auto;
+      height: 140px;
+  }
+}
+
+@media (max-width: 535px) {
+
+
+   .footer_logo p {
+      text-align: center;
+   }
+}
+
+@media (max-width: 597px) {}
+
+@media (max-width: 571px) {}
+
+@media (max-width: 509px) {}
+
+@media (max-width: 470px) {
+   .header_wrapper:has(input:focus) .logo_main {
+      margin-left: -107px;
+      scale: 0;
+   }
+
+   .subs_btn {
+      flex: 0 0 125px;
+      font-size: clamp(13px, 2.5vw, 15px);
+   }
+
+   .latest_btn_main {
+      /* flex-direction: column; */
+      align-items: center;
+   }
+
+   .latest_btn_wrapper {
+      margin-left: auto;
+   }
+
+   .latest_slide_btn {
+      background: none;
+      height: 20px;
+      width: 20px;
+      color: var(--secondary-200);
+   }
+
+}
+
+@media (max-width: 465px) {
+   .category_link {
+      display: block;
+   }
+
+   .header_btn a {
+      display: none;
+   }
+
+   .cate_home_wrapper {
+      grid-template-columns: repeat(auto-fill, minmax(152px, 1fr));
+   }
+
+   .cate_home_img {
+      height: 70px;
+      flex: 0 0 62px;
+   }
+
+   .single_btn_main {
+      flex-direction: column;
+      gap: 12px;
+   }
+
+   .click_code_main {
+      flex-direction: column;
+      gap: 10px;
+   }
+
+   .copy_code_btn.visit_store {
+      display: none;
+   }
+
+   .modal_close_btn {
+      height: 30px;
+      width: 30px;
+      top: -16px;
+      right: -13px;
+
+   }
+
+   .latest_mini_cards_main {
+      flex-direction: column;
+
+   }
+
+   .latest_mini_cards_main a {
+      flex: 0 0 120px;
+   }
+}

@@ -1,0 +1,124 @@
+
+
+.home_blog_wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    height: 400px;
+}
+
+.blog_home_card {
+    position: relative;
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+    box-shadow: var(--box-shadow);
+}
+
+.home_blog_card_img {
+    width: 100%;
+    border-bottom: 10px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.home_blog_card_content {
+    position: absolute;
+    bottom: -36px;
+    padding: 15px;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 7px;
+    /* background: white; */
+    /* border-top: 2px solid var(--primary-100); */
+    transition: .3s;
+}
+
+.blog_home_child_main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+}
+
+.home_blog_card_content h4 {
+    font-size: clamp(29px, 2.5vw, 35px);
+    color: var(--white);
+    font-weight: 700;
+}
+
+.home_blog_content {
+    display: flex;
+    gap: 20px;
+}
+
+.home_blog_card_content > p {
+    color: white;
+    font-size: clamp(13px, 2.5vw, 15px);
+    opacity: 0;
+    transition: .3s;
+}
+
+
+
+.blog_home_child_main .blog_home_card .home_blog_card_content h4 {
+    font-size: clamp(20px, 2.5vw, 22px);
+}
+
+.blog_home_child_main .blog_home_card .home_blog_card_content>p {
+    display: none;
+}
+
+.blog_home_child_main {
+    flex: 0 0 508px;
+}
+
+.home_blog_wrapper:nth-child(odd) {
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+
+.home_blog_tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    background: var(--primary-50);
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    font-size: clamp(17px, 2.5vw, 20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    box-shadow: var(--box-shadow);
+}
+
+.home_blog_tag i {
+    font-size: clamp(16px, 2.5vw, 18px);
+    display: flex;
+}
+
+.blog_home_card:hover figure img {
+    scale: 1.1;
+}
+
+.blog_home_card figure img {
+    transition: 1s;
+}
+.blog_home_card:hover  .home_blog_card_content {
+    bottom: 0;
+}
+
+.blog_home_card:hover .home_blog_card_content p {
+    opacity: 1;
+}
+
+.home_blog_content p {
+    color: white;
+    font-size: clamp(13px, 2.5vw, 15px);
+}
